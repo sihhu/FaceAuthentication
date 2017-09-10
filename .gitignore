@@ -14,9 +14,26 @@
 *.jar
 *.war
 *.ear
-*.zip
+# *.zip
 *.tar.gz
 *.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+
+# default output directories
+target/
+classes/
+deploy/
+javadoc/
+license/
+log/
+
+# IDE generated files
+.idea/
+out/
+*.iml
+
+# Jar packing
+MANIFEST.MF
